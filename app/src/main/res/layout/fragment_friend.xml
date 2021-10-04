@@ -10,7 +10,7 @@
         android:id="@+id/textwechat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="这是通讯录界面"
+        android:text="这是朋友圈界面"
         android:textSize="50sp" />
 
 </FrameLayout>

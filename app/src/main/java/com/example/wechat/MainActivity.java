@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         InitFragment();
 
+
     }
 
     private void InitFragment() {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         transaction.add(R.id.id_content, fragment_contact);
         transaction.add(R.id.id_content, fragment_config);
         transaction.commit();
+        HideFragment(transaction);
     }
 
     private void HideFragment(FragmentTransaction transaction) {

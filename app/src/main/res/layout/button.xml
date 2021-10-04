@@ -16,10 +16,9 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:src="@drawable/wechat"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@drawable/wechat" />
+            android:layout_height="70dp"
+            android:src="@drawable/wechat" />
 
         <TextView
             android:id="@+id/textView1"
@@ -41,10 +40,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:src="@drawable/contact"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@drawable/friend" />
+            android:layout_height="70dp"
+            android:src="@drawable/friend" />
 
         <TextView
             android:id="@+id/textView2"
@@ -66,17 +64,16 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:src="@drawable/friend"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@drawable/contact" />
+            android:layout_height="70dp"
+            android:src="@drawable/find" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="通讯录"
+            android:text="朋友圈"
             android:textColor="@color/white"
             android:textSize="30sp" />
     </LinearLayout>
@@ -91,10 +88,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:src="@drawable/config"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@drawable/config" />
+            android:layout_height="70dp"
+            android:src="@drawable/config" />
 
         <TextView
             android:id="@+id/textView4"
