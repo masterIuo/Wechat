@@ -6,11 +6,10 @@
     tools:context=".fragment_wechat">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textwechat"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecycleView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="这是朋友圈界面"
-        android:textSize="50sp" />
+        android:layout_height="wrap_content" />
 
 </FrameLayout>
