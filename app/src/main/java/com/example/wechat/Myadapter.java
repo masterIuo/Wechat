@@ -4,19 +4,22 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 public class Myadapter extends RecyclerView.Adapter <Myadapter.MyViewHolder> {
     private View itemView;
     private Context context;
-    private List<String> data;
+    private List<Map<String, Object>> data;
 
-    public Myadapter(List<String> data, Context context){
+    public Myadapter(List<Map<String, Object>> data, Context context){
         this.context = context;
         this.data = data;
     }
@@ -32,7 +35,10 @@ public class Myadapter extends RecyclerView.Adapter <Myadapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.textView1.setText(data.get(position));
+        holder.label.setText("品牌:"+Objects.requireNonNull(data.get(position).get("品牌")).toString());
+        holder.config.setText("配置:"+Objects.requireNonNull(data.get(position).get("配置")).toString());
+        holder.price.setText("价格:"+Objects.requireNonNull(data.get(position).get("价格")).toString());
+        holder.photo.setImageResource((Integer) data.get(position).get("图片"));
     }
 
 
@@ -43,11 +49,15 @@ public class Myadapter extends RecyclerView.Adapter <Myadapter.MyViewHolder> {
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView textView1;
+        TextView label,config,price;
+        ImageView photo;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            textView1=itemView.findViewById(R.id.textView1);
+            label=itemView.findViewById(R.id.Label);
+            config=itemView.findViewById(R.id.Config);
+            price=itemView.findViewById(R.id.Price);
+            photo = itemView.findViewById(R.id.photo);
         }
     }
 }
