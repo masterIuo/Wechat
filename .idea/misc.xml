@@ -4,14 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.315625" />
+        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/activity_info_apple.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/activity_info_huawei.xml" value="0.33" />
+        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/activity_info_xiaomi.xml" value="0.33" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/activity_more_info.xml" value="0.17755825734549138" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/button.xml" value="0.25364583333333335" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/fragment_blank.xml" value="0.25364583333333335" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/fragment_config.xml" value="0.25364583333333335" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/fragment_contact.xml" value="0.25364583333333335" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/fragment_friend.xml" value="0.33" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/fragment_wechat.xml" value="0.25364583333333335" />
-        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/item.xml" value="0.264" />
+        <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/item.xml" value="0.33" />
         <entry key="..\:/Project/Android/Wechat/app/src/main/res/layout/top.xml" value="0.25364583333333335" />
       </map>
     </option>
